@@ -3,3 +3,20 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.letter {
+  background-color: rgb(239, 203, 156);
+  border-style: dashed;
+  border-color: black;
+  height: 45px;
+  vertical-align: middle;
+  line-height: 45px;
+  text-align: center;
+}
