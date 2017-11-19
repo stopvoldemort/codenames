@@ -2,12 +2,11 @@ import React from 'react'
 import Word from './Word'
 
 
-const WordGrid = (props) => {
+const WordsGrid = (props) => {
 
   const wordDivs = props.words.map((word, idx) => {
-    return <Word word={word} key={idx} clickedWord={props.clickedWord} />
+    return <Word {...word} key={idx} clickedWord={props.clickedWord} view={props.view} />
   })
-
 
   return (
     <div className="wrapper">
@@ -17,4 +16,4 @@ const WordGrid = (props) => {
 
 }
 
-export default WordGrid
+export default WordsGrid

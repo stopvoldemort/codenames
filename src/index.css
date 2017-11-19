@@ -8,15 +8,32 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(80px, auto);
 }
 
-.letter {
+.word {
   background-color: rgb(239, 203, 156);
-  border-style: dashed;
+  border-style: solid;
   border-color: black;
-  height: 45px;
   vertical-align: middle;
-  line-height: 45px;
+  line-height: 70px;
   text-align: center;
+}
+
+.teamOne {
+  background-color: rgb(28, 69, 117);
+  color: rgb(194, 182, 165)
+}
+
+.teamTwo {
+  background-color: rgb(220, 43, 42);
+}
+
+.bystander {
+  background-color: rgb(206, 195, 181)
+}
+
+.assassin {
+  background-color: rgb(19, 19, 19);
+  color: white
 }
