@@ -6,6 +6,8 @@ Sometimes you really want to play Codenames with your friends or family, but you
 
 Note that this should not be a substitute for buying Codenames itself. The physical version is more fun, and it's only like $20.
 
+See the demo: https://youtu.be/sCs8g01Lock
+
 ## Technologies
 
 * React
