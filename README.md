@@ -1,5 +1,7 @@
 # Codenames
 
+https://mycodenames.herokuapp.com/
+
 ## Description
 
 Sometimes you really want to play Codenames with your friends or family, but you left the board back at your apartment. When this awful event occurs, do not be afraid, just come here and play this version.
