@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
-  /*grid-auto-rows: minmax(80px, auto);*/
+  grid-auto-rows: minmax(70px, 70px);
 }
 
 .word {
@@ -16,9 +16,12 @@ body {
   border-style: solid;
   border-color: black;
   vertical-align: middle;
-  /*line-height: 0px;*/
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+}
+
+button {
+  position: block;
 }
 
 .teamOne {

@@ -92,6 +92,7 @@ class GameContainer extends Component {
       <div>
         <h1>Welcome To Codenames!!!</h1>
         <WordsGrid words={this.state.assignments} clickedWord={this.clickedWord} view={this.state.view}/>
+        <br/><br/><br/>
         <span>
           <RevealButton revealButtonClicked={this.switchView} view={this.state.view}/>
           <span>     </span>
